@@ -45,60 +45,31 @@ if __name__ == '__main__':
 
 
 
-    # 80*80
+    # 85*64
     timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image80_1.txt", 24, 24, 80, 80, 25)
+    lcd_st7735s.lcd_show_image_file("usr/image8564_1.txt", 64, 21, 64, 85, 30)
     timeB = utime.ticks_ms()
-    print("image80:"+str(utime.ticks_diff(timeB,timeA))+"ms")
+    print("image8564:"+str(utime.ticks_diff(timeB,timeA))+"ms")
 
     timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image80_2.txt", 24, 24, 80, 80, 25)
+    lcd_st7735s.lcd_show_image_file("usr/image8564_2.txt", 64, 21, 64, 85, 30)
     timeB = utime.ticks_ms()
-    print("image80:"+str(utime.ticks_diff(timeB,timeA))+"ms")
+    print("image8564:"+str(utime.ticks_diff(timeB,timeA))+"ms")
 
     timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image80_3.txt", 24, 24, 80, 80, 25)
+    lcd_st7735s.lcd_show_image_file("usr/image8564_3.txt", 64, 21, 64, 85, 30)
     timeB = utime.ticks_ms()
-    print("image80:"+str(utime.ticks_diff(timeB,timeA))+"ms")
+    print("image8564:"+str(utime.ticks_diff(timeB,timeA))+"ms")
 
     timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image80_4.txt", 24, 24, 80, 80, 25)
+    lcd_st7735s.lcd_show_image_file("usr/image8564_4.txt", 64, 21, 64, 85, 30)
     timeB = utime.ticks_ms()
-    print("image80:"+str(utime.ticks_diff(timeB,timeA))+"ms")
+    print("image8564:"+str(utime.ticks_diff(timeB,timeA))+"ms")
 
     timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image80_5.txt", 24, 24, 80, 80, 25)
+    lcd_st7735s.lcd_show_image_file("usr/image8564_5.txt", 64, 21, 64, 85, 30)
     timeB = utime.ticks_ms()
-    print("image80:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-    print()
-
-    # 120*120
-    timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image120_1.txt", 4, 4, 120, 120, 17)
-    timeB = utime.ticks_ms()
-    print("image120:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-
-    timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image120_2.txt", 4, 4, 120, 120, 17)
-    timeB = utime.ticks_ms()
-    print("image120:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-
-    timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image120_3.txt", 4, 4, 120, 120, 17)
-    timeB = utime.ticks_ms()
-    print("image120:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-
-    timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image120_4.txt", 4, 4, 120, 120, 17)
-    timeB = utime.ticks_ms()
-    print("image120:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-
-    timeA = utime.ticks_ms()
-    lcd_st7735s.lcd_show_image_file("usr/image120_5.txt", 4, 4, 120, 120, 17)
-    timeB = utime.ticks_ms()
-    print("image120:"+str(utime.ticks_diff(timeB,timeA))+"ms")
-    print()
-
+    print("image8564:"+str(utime.ticks_diff(timeB,timeA))+"ms")
 
 
 

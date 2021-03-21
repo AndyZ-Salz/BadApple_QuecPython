@@ -12,10 +12,10 @@ XEND_H = 0xE0
 XEND_L = 0xE1
 YEND_H = 0xE2
 YEND_L = 0xE3
-XSTART = 0xD0
-XEND = 0xD1
-YSTART = 0xD2
-YEND = 0xD3
+# XSTART = 0xD0
+# XEND = 0xD1
+# YSTART = 0xD2
+# YEND = 0xD3
 
 class ST7735S():
     def __init__(self, width, hight):
